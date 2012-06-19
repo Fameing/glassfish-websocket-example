@@ -1,0 +1,78 @@
+/* CSS Document */
+body {
+    font: 12px arial;
+    color: #F0E9DF;
+    text-align: center;
+    background: black;
+    padding: 35px;
+}
+
+form, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font: 12px arial;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    background: url(http://jelastic.com/img/jelastic-logo.png) transparent no-repeat top left !important;
+    width: 200px;
+    height: 50px;
+    margin: 10 auto;
+}
+
+#body {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #21242B;
+    width: 504px;
+    border: 1px solid #373C48;
+}
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 270px;
+    width: 430px;
+    border: 1px solid #373C48;
+    overflow: auto;
+}
+
+#usermsg {
+    width: 395px;
+    border: 1px solid #373C48;
+}
+
+#submit {
+    width: 60px;
+}
+
+.error {
+    color: #ff0000;
+}
+
+#menu {
+    padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome {
+    float: left;
+}
+
+.msgln {
+    margin: 0 0 2px 0;
+}
